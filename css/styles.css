@@ -482,6 +482,10 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap 24px;
+}
+.footer-email-label{
+
 }
 .footer-form-btn {
   border-radius: 4px;
@@ -495,6 +499,9 @@ main {
   border: none;
   display: flex;
   align-items: center;
+  min-width: 165px;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
 }
 .footer-form-btn-icon {
   fill: #fff;
@@ -511,6 +518,10 @@ main {
   padding-left: 16px;
   color: #fff;
   margin-right: 24px;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em; 
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .footer-email::placeholder {
   font-size: 12px;
@@ -679,10 +690,6 @@ main {
   display: flex;
   align-items: center;
 }
-.check-text-box{
- transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
- display: inline-flex;
-}
 .check-link {
   line-height: 1.33;
   text-decoration: underline;
@@ -691,16 +698,17 @@ main {
   m
 }
 
-.check-text span {
+.check-text-box {
   width: 16px;
   height: 16px;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 8px;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
+   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-check:checked + .check-text span {
   background-color: #404bbf;
