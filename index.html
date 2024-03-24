@@ -506,22 +506,20 @@
         </div>
         <div class="footer-subscribe">
           <p class="footer-subtitle">Subscribe</p>
-          <form>
-            <div class="footer-subscribe-box">
-              <label>
-                <input
-                  type="email"
-                  name="footer-mail"
-                  class="footer-email"
-                  placeholder="E-mail"
-              /></label>
-              <button type="submit" class="footer-form-btn">
-                Subscribe
-                <svg class="footer-form-btn-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-frame"></use>
-                </svg>
-              </button>
-            </div>
+          <form class="form-subscribe">
+            <label>
+              <input
+                type="email"
+                name="footer-mail"
+                class="footer-email"
+                placeholder="E-mail"
+            /></label>
+            <button type="submit" class="footer-form-btn">
+              Subscribe
+              <svg class="footer-form-btn-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-frame"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
@@ -581,7 +579,7 @@
               </svg>
             </div>
           </div>
-          <div class="modal-field">
+          <div class="modal-field-text">
             <label for="user-comment" class="form-label"> Comment</label>
             <textarea
               name="user-comment"
@@ -592,16 +590,17 @@
               class="modal-text"
             ></textarea>
           </div>
-          <div class="modal-field">
+          <div class="modal-field-check">
             <input
               type="checkbox"
-              name="privacy"
+              name="user-privacy"
               required
-              id="privacy"
+              id="user-privacy"
+              value="true"
               class="modal-check visually-hidden"
             />
-            <label for="privacy" class="check-text"
-              ><span>
+            <label for="user-privacy" class="check-text"
+              ><span class="check-text-box">
                 <svg class="modal-check-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-check"></use>
                 </svg> </span
