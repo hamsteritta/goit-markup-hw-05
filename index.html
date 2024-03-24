@@ -471,7 +471,7 @@
           digital marketing & growth solutions.
         </p>
       </div>
-      <div class="footer-item">
+      <div class="footer-soc">
         <p class="footer-subtitle">Social media</p>
         <ul class="footer-link-list">
           <li class="footer-link">
@@ -504,19 +504,28 @@
           </li>
         </ul>
       </div>
-      <div class="footer-item">
+      <div class="footer-subscribe">
+        <form>
         <p class="footer-subtitle">Subscribe</p>
+        <div class="footer-subscribe-box">
+        <label>
         <input
           type="email"
-          name="E-mail"
-          class="mail-contact"
+          name="footer-mail"
+          class="footer-email"
           placeholder="E-mail"
-        />
-      </div>
-      <button type="submit" class="subscribe">Subscribe</button>
+        /></label>
+      <button type="submit" class="footer-form-btn">Subscribe  
+          <svg class="footer-form-btn-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-frame"></use>
+          </svg>
+        </button>
+        </div>
+    </form> 
+  </div>
     </footer>
 
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="modal">
         <button type="button" class="modal-close">
           <svg class="modal-ex" width="8" height="8">
@@ -591,10 +600,10 @@
                   <use href="./images/icons.svg#icon-check"></use>
                 </svg> </span
               >I accept the terms and conditions of the
-              <a href="" class="check-link"> Privacy Policy</a>
+              <a href="" class="check-link">Privacy Policy</a>
             </label>
           </div>
-          <button class="" type="submit">Send</button>
+          <button class="modal-btn" type="submit">Send</button>
         </form>
       </div>
     </div>
