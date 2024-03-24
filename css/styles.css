@@ -476,15 +476,11 @@ main {
 .social-icon {
   fill: #f4f4fd;
 }
-.footer-subscribe {
-}
 .form-subscribe {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 24px;
-}
-.footer-email-label {
 }
 .footer-form-btn {
   border-radius: 4px;
@@ -530,10 +526,10 @@ main {
 }
 .backdrop {
   position: fixed;
-  width: 100%;
-  height: 100%;
   top: 0;
   left: 0;
+  width: 100%;
+  height: 100%;
   background-color: rgba(46, 47, 66, 0.4);
   opacity: 0;
   visibility: hidden;
@@ -603,8 +599,6 @@ main {
   color: #2e2f42;
   margin-top: 48px;
   margin-bottom: 16px;
-}
-.modal-form {
 }
 
 .modal-field {
@@ -701,12 +695,12 @@ main {
 }
 
 .check-text-box {
+  display: inline-flex;
   width: 16px;
   height: 16px;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 8px;
-  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
@@ -718,8 +712,6 @@ main {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
-}
-.modal-check-icon {
 }
 
 .modal-btn {
